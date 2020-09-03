@@ -1,6 +1,6 @@
-$maincolor:#fcf8f2;
-$nav-footer:#f8f0ea;
-$textlink:#6559f3;
+$maincolor:#d8abd0;
+$nav-footer:#ac7da3;
+$textlink:#ac7da3;
 html, body { overflow-x:hidden; }
 a{
     color:$textlink;
@@ -8,7 +8,7 @@ a{
 }
 a:hover{
     text-decoration: none;
-    color:#212425;
+    color:#704f6a;
 }
 section{
     padding: 4rem 1rem;
@@ -18,29 +18,43 @@ body{
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap');
     font-family: 'Roboto', sans-serif;
 }
+
 nav{
     background-color: $nav-footer;
+      .navbar-light .navbar-brand{
+        color:white;
+        font-size: 25px;
+    }
+    .navbar-light .navbar-brand:hover{
+        color:white;
+    }
+    
     .navbar-light .nav-item .nav-link{
-        color:#212425;
+        color:#ffffff;
         border-bottom: 2px solid $nav-footer ;
     }
     .navbar-light .nav-item .nav-link:hover{
-        color:#212425;
-        border-bottom: 2px solid #212425 ;
+        color:#704f6a;
+        border-bottom: 2px solid #704f6a ;
+    }
+    .navbar-light .nav-item .nav-link.active{
+        color:#704f6a;
+        border-bottom: 2px solid #704f6a ;
     }
 }
 header{
     //background-color: $maincolor;
     h1{
         text-align: center;
-        padding: 3rem;
+        padding: 1rem 3rem;
     }
     h3{
         margin: 1rem;
     }
-    
+    padding: 3rem;
 }
 .purpose{
+    padding: 5rem;
     background-color: $maincolor;
     .purpose__info{
         padding: 2rem 1rem;
@@ -49,10 +63,28 @@ header{
         background-color: #fff;
 
     }
+    .purpose__info-img{
+        padding: 2rem 1rem;
+       img{
+        border:1px solid $nav-footer;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+       } 
+         
+    }
 }
 .team{
+    h2{
+        padding-bottom: 2rem;
+    }
     .card{
       margin: 0.5rem;; 
+    }
+    .card-text:nth-child(1){
+        font-weight: 500;
+    }
+    .card-text:nth-child(2){
+        font-style: italic;
+        
     }
 }
 
@@ -67,6 +99,27 @@ footer{
     }
     a{
         padding-left: 10px;
+    }
+    
+}
+
+//////////////////////////////Программы///////
+.programs-action{
+    padding: 4rem 1rem;
+    h2{
+        padding-bottom: 4rem;
+    }
+    .programs-action__item{
+        padding: 2rem 1rem;
+        h3{
+            padding: 1rem;
+        }
+        .main-slider{
+            background-color: $maincolor;
+            padding: 0.5rem;
+            border:1px solid $nav-footer;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+        }
     }
     
 }

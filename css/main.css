@@ -4,13 +4,13 @@ html, body {
 }
 
 a {
-  color: #6559f3;
+  color: #ac7da3;
   font-weight: bold;
 }
 
 a:hover {
   text-decoration: none;
-  color: #212425;
+  color: #704f6a;
 }
 
 section {
@@ -23,22 +23,40 @@ body {
 }
 
 nav {
-  background-color: #f8f0ea;
+  background-color: #ac7da3;
+}
+
+nav .navbar-light .navbar-brand {
+  color: white;
+  font-size: 25px;
+}
+
+nav .navbar-light .navbar-brand:hover {
+  color: white;
 }
 
 nav .navbar-light .nav-item .nav-link {
-  color: #212425;
-  border-bottom: 2px solid #f8f0ea;
+  color: #ffffff;
+  border-bottom: 2px solid #ac7da3;
 }
 
 nav .navbar-light .nav-item .nav-link:hover {
-  color: #212425;
-  border-bottom: 2px solid #212425;
+  color: #704f6a;
+  border-bottom: 2px solid #704f6a;
+}
+
+nav .navbar-light .nav-item .nav-link.active {
+  color: #704f6a;
+  border-bottom: 2px solid #704f6a;
+}
+
+header {
+  padding: 3rem;
 }
 
 header h1 {
   text-align: center;
-  padding: 3rem;
+  padding: 1rem 3rem;
 }
 
 header h3 {
@@ -46,25 +64,48 @@ header h3 {
 }
 
 .purpose {
-  background-color: #fcf8f2;
+  padding: 5rem;
+  background-color: #d8abd0;
 }
 
 .purpose .purpose__info {
   padding: 2rem 1rem;
-  border: 1px solid #f8f0ea;
+  border: 1px solid #ac7da3;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   background-color: #fff;
+}
+
+.purpose .purpose__info-img {
+  padding: 2rem 1rem;
+}
+
+.purpose .purpose__info-img img {
+  border: 1px solid #ac7da3;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.team h2 {
+  padding-bottom: 2rem;
 }
 
 .team .card {
   margin: 0.5rem;
 }
 
+.team .card-text:nth-child(1) {
+  font-weight: 500;
+}
+
+.team .card-text:nth-child(2) {
+  font-style: italic;
+}
+
 footer {
   text-align: center;
   padding: 1.5rem;
-  background-color: #f8f0ea;
+  background-color: #ac7da3;
 }
 
 footer p {
@@ -73,5 +114,29 @@ footer p {
 
 footer a {
   padding-left: 10px;
+}
+
+.programs-action {
+  padding: 4rem 1rem;
+}
+
+.programs-action h2 {
+  padding-bottom: 4rem;
+}
+
+.programs-action .programs-action__item {
+  padding: 2rem 1rem;
+}
+
+.programs-action .programs-action__item h3 {
+  padding: 1rem;
+}
+
+.programs-action .programs-action__item .main-slider {
+  background-color: #d8abd0;
+  padding: 0.5rem;
+  border: 1px solid #ac7da3;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 /*# sourceMappingURL=main.css.map */
