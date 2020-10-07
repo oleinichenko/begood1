@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Программы</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+          <nav class="navbar  navbar-light navbar-expand-md  ">
+              <a class="navbar-brand" href="index.html"> <img src="img/logo-mini.png" class="img-fluid" alt="logo">  ДоброДети</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"><a class="nav-link" href="">Новости </a></li> 
+                  <li class="nav-item"><a class="nav-link" href="">О фонде</a></li> 
+                  <li class="nav-item"><a class="nav-link" href="">Отчеты</a></li>
+                  <li class="nav-item "><a class="nav-link " href="programs.html">Программы</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="help.html">Хочу помочь</a></li>                   
+                </ul>
+              </div>
+            </nav>
+      </div>
+    </nav>
+    <section class="help">
+        <div class="container">
+            <h2 class="text-center">Как нам помочь</h2>
+
+            <div class="tabs ">
+              <ul class="tabs__caption  d-flex justify-content-between text-center">
+                <li class="col-md-4 active   "><i class="fas fa-hands-helping fa-2x"> </i> Анкета волонтера </li>
+                <li class=" col-md-4  "> <i class="fas fa-gift fa-2x"></i> Сбор вещей</li>
+                <li class=" col-md-4 "><i class="fas fa-donate fa-2x"></i> Поддержать</li>
+              </ul>
+              <div class="tabs__content active" >
+                <div class=" d-flex">
+                  <div class="volunteer__text col-md-6">
+                  <h3>Станьте волотером!</h3>
+                  <p>Мы всегда очень рады, когда к нашей команде присоединяются новые люди и тд </p>
+                  <p> На нужны такие то люди с такими то навыками и аппаратурой</p>
+                  <p>Заполните краткую анкету волотера и координаторы с вами непременно свяжутся</p>
+                  <p>Если у вас есть какие то, вопросы вы можете написать директору фонда 
+                    <a href="https://vk.com/lenok_mamontenok" target="_blank">Олейниченко Елене</a>
+                  </p>
+                </div>
+                <form class="  col-md-6" action="send.php" method="post">
+                  <input class="col-md-12 txt" type="text" name="fio" placeholder="ФИО" required>
+                  <input class="col-md-12 txt" type="number" name="age" placeholder="Возраст" required>
+                  <input class="col-md-12 txt" type="tel" name="tel" placeholder="Номер телефона" required>
+                  <textarea class="col-md-12 txt" name="message" placeholder="Чем хотите помочь" required></textarea>
+                  <input class="send" type="submit" value="Отправить">
+                </form>
+                </div>
+                
+              </div>
+              <div class="tabs__content items">
+                <h3>Передача вещей в детские дома, приюты и школы-интернаты </h3>
+                <p>Помните, что вещи должны передаваться в<strong> идеальном состоянии</strong>. Переделывать, ушивать, штопать, менять кнопки, пуговицы и молнии в детском доме <strong>негде!</strong></p>
+                <p>Прежде чем передать вещи в руки волонтера:</p>
+                <ul>
+                  <li>Убедитесь в идеальном состоянии вещей.</li>
+                  <p>Одежда не должна быть рваной или с расходящимися от старости швами, растянута или с огромными неотстирывающимися пятнами. Обратите внимание что нижнее белье, носки, майки и колготки должны быть <strong>только новые!</strong></p>
+                  
+                   
+                  <li>Постирайте и отгладьте.</li>
+                  <li>Отсортируйте.</li>
+                  <p>По возрасту; для повседневной носки - отдельно от верхней одежды и обуви; чулочно-носочные изделия также отдельно.</p>
+                  
+                  <li>Упакуйте.</li>
+                  <p>В полиэтиленовые мешки, куда вложите перечень вещей, написанный на бумаге, подписанный <strong>вами</strong>, с указанием своего имени и даты передачи.</p>
+                  
+                </ul>
+                <div class="items__list">
+                  <h4 class="text-center ">Перечень вещей</h4>
+                    <div class="row justify-content-center text-center">
+                      <div class="card col-lg-3" >
+                        <div class="card-body">
+                          <h5 class="card-title"><i class="fas fa-tshirt fa-2x"></i></h5>
+                          <p class="card-text">Одежда</p> 
+                        </div>
+                      </div> 
+                      <div class="card col-lg-3" >
+                        <div class="card-body">
+                          <h5 class="card-title"><i class="fas fa-shoe-prints fa-2x"></i></h5>
+                          <p class="card-text">Обувь</p> 
+                        </div>
+                      </div>
+                      <div class="card col-lg-3" >
+                        <div class="card-body">
+                          <h5 class="card-title"><i class="fas fa-baby fa-2x"></i></h5>
+                          <p class="card-text">Одежда для младенцев</p> 
+                        </div>
+                      </div>
+                      <div class="card col-lg-3" >
+                        <div class="card-body">
+                          <h5 class="card-title"><i class="fas fa-baby-carriage fa-2x"></i></h5>
+                          <p class="card-text">Пелёнки, памперсы (0 размер), присыпки, салфетки, соски-пустышки, бутылочки для кормления</p> 
+                        </div>
+                      </div>
+                      <div class="card col-lg-3" >
+                        <div class="card-body">
+                          <h5 class="card-title"><i class="fas fa-book fa-2x"></i></h5>
+                          <p class="card-text">Книги, канцелярские принадлеждности, предметы для творчества</p> 
+                        </div>
+                      </div>
+                      <div class="card col-lg-3" >
+                        <div class="card-body">
+                          <h5 class="card-title"><i class="fas fa-shapes fa-2x"></i></h5>
+                          <p class="card-text">Игрушки</p> 
+                        </div>
+                      </div>
+                      <div class="card col-lg-3" >
+                        <div class="card-body">
+                          <h5 class="card-title"><i class="fas fa-soap fa-2x"></i></h5>
+                          <p class="card-text">Средства личной гигиены</p> 
+                        </div>
+                      </div>
+                      <div class="card col-lg-3" >
+                        <div class="card-body">
+                          <h5 class="card-title"><i class="fas fa-birthday-cake fa-2x"></i></h5>
+                          <p class="card-text">Накануне поездок - свежие фрукты и сладкое</p> 
+                        </div>
+                      </div>
+                  </div> 
+                 
+                  
+                  <!--<ul>
+                    <li><i class="fas fa-tshirt"></i> Одежда</li>
+                    <li><i class="fas fa-shoe-prints"></i> Обувь</li>
+                    <li><i class="fas fa-baby"></i> Одежда для младенцев</li>
+                    <li><i class="fas fa-baby-carriage"></i> Пелёнки, памперсы (0 размер), присыпки, салфетки, соски-пустышки, бутылочки для кормления.</li>
+                    <li><i class="fas fa-book"></i> Книги, канцелярские принадлеждности, предметы для творчества.</li>
+                    <li><i class="fas fa-shapes"></i> Игрушки</li>
+                    <li><i class="fas fa-soap"></i> Средства личной гигиены</li>
+                    <li><i class="fas fa-birthday-cake"></i> Накануне поездок - свежие фрукты и сладкое.</li>
+                  </ul>-->
+                </div>
+                <p class="text-center"><em>Если готовы помочь или у вас есть вопросы звоните (номер телефона)</em></p>
+                <h5 class="text-center">Спасибо!</h5>
+              </div>
+              <div class="tabs__content">
+                <i class="fas fa-tools fa-3x"></i>
+                <p>На данный момент по техническим причинам мы не принимаем денежных пожертвований. </p>
+                <p>Если хотите помочь, выберите любой доступный вам вариант из предложенных в этой странице</p>
+              </div>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2020 Сделано Олейниченко<a href="https://github.com/oleinichenko"  target="_blank"><i class="fab fa-github" style="color:#211F1F"></i></a><a href="https://vk.com/id124892962"  target="_blank"><i class="fab fa-vk" style="color:#4c75a3"></i></a></p>
+        </div>
+     </footer>
+     
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/557f4f9092.js" crossorigin="anonymous"></script>
+      <script src="js/main.js"></script>
+    </body>
+  </html>

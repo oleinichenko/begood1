@@ -6,6 +6,7 @@ a{
     color:$textlink;
     font-weight: bold;
 }
+
 a:hover{
     text-decoration: none;
     color:#704f6a;
@@ -59,6 +60,7 @@ header{
     .purpose__info{
         padding: 2rem 1rem;
         border:1px solid $nav-footer;
+        border-radius: 4px;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);
         background-color: #fff;
 
@@ -66,6 +68,7 @@ header{
     .purpose__info-img{
         padding: 2rem 1rem;
        img{
+        border-radius: 4px;
         border:1px solid $nav-footer;
         box-shadow: 0 0 10px rgba(0,0,0,0.5);  
        } 
@@ -103,7 +106,7 @@ footer{
     
 }
 
-//////////////////////////////Программы///////
+//////////////////////////////Программы///////////////
 .programs-action{
     padding: 4rem 1rem;
     h2{
@@ -122,4 +125,87 @@ footer{
         }
     }
     
+}
+////////////////////////ХОЧУ ПОМОЧЬ//////////////////
+.help{
+    padding: 4rem 1rem;
+    h2{
+        padding-bottom: 4rem;
+    } 
+    .tabs__caption{
+            margin: 0;
+            padding: 0;
+            list-style: none; 
+        li{
+            
+            padding: 2rem ;
+            display: inline;
+            list-style: none;
+            border: 1px solid $nav-footer;
+            border-radius: 6px 6px 0px 0px ;
+        }
+       
+        li.active{
+            background-color: $maincolor;
+            border: 1px solid $nav-footer;
+            border-bottom: none;
+        } 
+    }
+    
+    .tabs__content {
+        padding: 2rem 1rem;
+        display: none; /* по умолчанию прячем все блоки */
+        background-color: $maincolor;
+        border: 1px solid $nav-footer;
+        border-top: none;
+        border-radius:0px 0px 6px 6px  ;
+    }
+    .tabs__content.active {
+        display: block; /* по умолчанию показываем нужный блок */
+    }
+    .volunteer__text{
+        border:1px solid $nav-footer;
+        background-color: #fff; 
+        padding: 1rem;  
+        border-radius: 4px;
+    }  
+    .txt{
+        margin-bottom: 0.1rem;
+        padding: 0.5rem;
+        border: 1px solid $nav-footer;
+        border-radius: 4px;
+    }
+    .txt:nth-child(4){
+        height: 12rem;
+    }
+    .txt:focus{
+        outline: 2px solid $nav-footer;
+    }
+    .items{
+        li{
+            font-weight: bold;
+            
+        }
+        .items__list{
+            margin: 1rem 5rem;
+            padding: 3rem 1rem;
+            border:1px solid $nav-footer;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            background-color: #fff;
+            ul{
+                list-style: none;
+                font-size: 1.2rem;
+            }
+           .card{
+               margin: 1rem;
+               p{
+                   font-weight: bold;
+               }
+           } 
+        }
+    }
+    
+
+      
 }
