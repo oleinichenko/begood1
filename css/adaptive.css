@@ -1,0 +1,53 @@
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 1rem;
+  }
+  .container {
+    padding: 0;
+  }
+  .main-header {
+    padding: 1rem;
+  }
+  .main-header h1 {
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .main-header h3 {
+    text-align: center;
+  }
+  .purpose {
+    padding: 2rem;
+  }
+  .purpose .purpose__img-social {
+    padding: 1rem 0rem;
+  }
+  .programs-action {
+    padding: 1rem;
+  }
+  .programs-action h2 {
+    padding: 1rem;
+  }
+  .programs-action .main-slider {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .help {
+    padding: 1rem 0rem;
+  }
+  .help h2 {
+    padding: 1rem;
+  }
+  .help .tabs__caption li {
+    padding: 5px 0;
+  }
+  .help .form-send {
+    padding: 1rem 0rem;
+  }
+  .help .items .items__list {
+    margin: 0.5rem 1rem;
+    padding: 1rem 0.5rem;
+  }
+}
+/*# sourceMappingURL=adaptive.css.map */

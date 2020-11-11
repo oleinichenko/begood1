@@ -1,0 +1,67 @@
+@media screen and (max-width: 992px){
+    body {
+        font-size:1rem;
+    }
+    .container{
+        padding: 0;
+    }
+    .main-header{
+        padding: 1rem;
+        //color:red;
+    
+        h1{
+            padding: 1rem 1rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+       
+        h3{
+            text-align: center;
+            //font-size: 1.5rem;
+        }
+        
+    }
+    .purpose{
+        padding: 2rem;
+        .purpose__img-social{
+           
+           padding: 1rem 0rem;
+           
+        }
+    }
+    
+
+/////////////////////ПРОГРАММЫ//////
+    .programs-action{
+        padding: 1rem;
+        h2{
+            padding: 1rem;
+        }
+        .main-slider{
+            order:1;
+        }
+    }
+
+/////////////////////ХОЧУ ПОМОЧЬ///////
+    .help{
+        padding: 1rem 0rem;
+        h2{
+            padding: 1rem;
+        }
+        .tabs__caption{
+            li{
+                padding: 5px 0;
+            }
+        }
+        .form-send{
+            padding: 1rem 0rem;
+        }
+       .items{
+           .items__list{
+            margin: 0.5rem 1rem;
+            padding: 1rem 0.5rem;
+           }
+            
+       } 
+    }
+}

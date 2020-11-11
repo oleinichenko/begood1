@@ -51,17 +51,21 @@ nav .navbar-light .nav-item .nav-link.active {
   border-bottom: 2px solid #704f6a;
 }
 
-header {
+.main-header {
   padding: 3rem;
 }
 
-header h1 {
+.main-header h1 {
   text-align: center;
   padding: 1rem 3rem;
 }
 
-header h3 {
+.main-header h3 {
   margin: 1rem;
+}
+
+.main-header img {
+  padding: 1rem;
 }
 
 .purpose {
@@ -78,15 +82,26 @@ header h3 {
   background-color: #fff;
 }
 
-.purpose .purpose__info-img {
-  padding: 2rem 1rem;
-}
-
-.purpose .purpose__info-img img {
+.purpose .purpose__img-social img {
   border-radius: 4px;
   border: 1px solid #ac7da3;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.purpose .purpose__img-social .purpose__info-social {
+  border: 1px solid #ac7da3;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.purpose .purpose__img-social .purpose__info-social p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 1rem;
 }
 
 .team h2 {
@@ -95,6 +110,11 @@ header h3 {
 
 .team .card {
   margin: 0.5rem;
+  border: 1px solid #ac7da3;
+}
+
+.team .card-body {
+  background-color: #d8abd0;
 }
 
 .team .card-text:nth-child(1) {
