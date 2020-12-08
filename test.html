@@ -58,3 +58,50 @@
       </div>
     </div>
   </section>
+
+  <div class="media ">
+    <div class="container">
+    <div class="media__btn"><h2>СМИ о нас</h2></div>
+    <div class="media__list ">
+      <div class="video"><iframe src="//vk.com/video_ext.php?oid=-76222094&id=456240393&hash=6294ee6fbfddc006&hd=2" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></div>
+      <div class="news-link1">2</div>
+      <div class="news-link2">3</div>
+      <div class="news-link3">2</div>
+      <div class="news-link4">3</div>
+      <div class="video1"><iframe src="//vk.com/video_ext.php?oid=-76222094&id=456240393&hash=6294ee6fbfddc006&hd=2" width="100%" height="100%" frameborder="0" allowfullscreen></iframe></div>
+    </div>
+    </div>
+  </div>
+
+  .media{
+        
+    .media__btn{
+        
+    }   
+   .video{grid-area: video}
+   .video1{grid-area: video1}
+   .news-link1{grid-area: news-link1}
+   .news-link2{grid-area: news-link2}
+   .news-link3{grid-area: news-link3}
+   .news-link4{grid-area: news-link4}
+   .media__list{
+       display:grid;
+       grid-template:
+       "video news-link1" 8rem
+       "video news-link2" 8rem 
+       "news-link3 video1" 8rem
+       "news-link4 video1" 8rem / 1fr 1fr;
+
+       .video{
+           border: 1px solid red;
+       }
+       .news-link1{
+           border: 1px solid blue;
+       }
+       .news-link2{
+           border: 1px solid green;
+       }
+   }
+
+} 
+

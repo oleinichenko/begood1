@@ -5,13 +5,13 @@ html, body {
 }
 
 a {
-  color: #ac7da3;
+  color: #63a8c7;
   font-weight: bold;
 }
 
 a:hover {
   text-decoration: none;
-  color: #704f6a;
+  color: #35536b;
 }
 
 section {
@@ -24,34 +24,30 @@ body {
 }
 
 nav {
-  background-color: #ac7da3;
+  background-color: #f3ced5;
 }
 
 nav .navbar-light .navbar-brand {
-  color: white;
+  color: black;
   font-size: 25px;
 }
 
 nav .navbar-light .navbar-brand:hover {
-  color: white;
+  color: #35536b;
 }
 
 nav .navbar-light .nav-item .nav-link {
-  color: #ffffff;
-  border-bottom: 2px solid #ac7da3;
+  color: black;
+  border-bottom: 2px solid #f3ced5;
 }
 
 nav .navbar-light .nav-item .nav-link:hover {
-  color: #704f6a;
-  border-bottom: 2px solid #704f6a;
-}
-
-nav .navbar-light .nav-item .nav-link.active {
-  color: #704f6a;
-  border-bottom: 2px solid #704f6a;
+  color: #35536b;
+  border-bottom: 2px solid #35536b;
 }
 
 .main-header {
+  background-color: #fbf5e7;
   padding: 3rem;
 }
 
@@ -60,48 +56,61 @@ nav .navbar-light .nav-item .nav-link.active {
   padding: 1rem 3rem;
 }
 
-.main-header h3 {
-  margin: 1rem;
-}
-
 .main-header img {
   padding: 1rem;
 }
 
 .purpose {
-  padding: 5rem;
-  background-color: #d8abd0;
+  background-color: #f3ced5;
+}
+
+.purpose .purpose-row {
+  border: 1px solid #f3ced5;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
 }
 
 .purpose .purpose__info {
   padding: 2rem 1rem;
-  border: 1px solid #ac7da3;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: #fff;
 }
 
-.purpose .purpose__img-social img {
-  border-radius: 4px;
-  border: 1px solid #ac7da3;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.purpose .purpose__img-social .purpose__info-social {
-  border: 1px solid #ac7da3;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: #fff;
-  border-radius: 4px;
-  margin-top: 1rem;
+.purpose .purpose__img-social {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .purpose .purpose__img-social .purpose__info-social p {
   font-weight: bold;
   font-size: 1.5rem;
-  padding-top: 1rem;
+  padding: 1rem;
+  margin: 0;
+}
+
+.purpose .media__list h2 {
+  padding: 4rem 0 1rem 0;
+}
+
+.purpose .media__list .media-row {
+  border: 1px solid #f3ced5;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.purpose .media__list .media-row .row {
+  margin: 0;
+  padding: 0;
+}
+
+.purpose .media__list .news-link {
+  padding: 2rem;
+}
+
+.purpose .media__list .video {
+  padding: 0;
 }
 
 .team h2 {
@@ -110,25 +119,27 @@ nav .navbar-light .nav-item .nav-link.active {
 
 .team .card {
   margin: 0.5rem;
-  border: 1px solid #ac7da3;
+  border: 1px solid #f3ced5;
 }
 
 .team .card-body {
-  background-color: #d8abd0;
+  background-color: #f3ced5;
 }
 
 .team .card-text:nth-child(1) {
   font-weight: 500;
+  text-align: center;
 }
 
 .team .card-text:nth-child(2) {
+  text-align: center;
   font-style: italic;
 }
 
 footer {
   text-align: center;
   padding: 1.5rem;
-  background-color: #ac7da3;
+  background-color: #f3ced5;
 }
 
 footer p {
@@ -145,20 +156,21 @@ footer a {
 
 .programs-action h2 {
   padding-bottom: 4rem;
+  font-size: 40px;
 }
 
 .programs-action .programs-action__item {
   padding: 2rem 1rem;
 }
 
-.programs-action .programs-action__item h3 {
-  padding: 1rem;
+.programs-action .programs-action__item .programs__text {
+  padding: 7rem 1rem;
 }
 
 .programs-action .programs-action__item .main-slider {
-  background-color: #d8abd0;
+  background-color: #aad1e2;
   padding: 0.5rem;
-  border: 1px solid #ac7da3;
+  border: 1px solid #aad1e2;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -181,13 +193,13 @@ footer a {
   padding: 2rem;
   display: inline;
   list-style: none;
-  border: 1px solid #ac7da3;
+  border: 1px solid #f3ced5;
   border-radius: 6px 6px 0px 0px;
 }
 
 .help .tabs__caption li.active {
-  background-color: #d8abd0;
-  border: 1px solid #ac7da3;
+  background-color: #f3ced5;
+  border: 1px solid #f3ced5;
   border-bottom: none;
 }
 
@@ -195,8 +207,8 @@ footer a {
   padding: 2rem 1rem;
   display: none;
   /* по умолчанию прячем все блоки */
-  background-color: #d8abd0;
-  border: 1px solid #ac7da3;
+  background-color: #f3ced5;
+  border: 1px solid #f3ced5;
   border-top: none;
   border-radius: 0px 0px 6px 6px;
 }
@@ -207,7 +219,7 @@ footer a {
 }
 
 .help .volunteer__text {
-  border: 1px solid #ac7da3;
+  border: 1px solid #f3ced5;
   background-color: #fff;
   padding: 1rem;
   border-radius: 4px;
@@ -216,7 +228,7 @@ footer a {
 .help .txt {
   margin-bottom: 0.1rem;
   padding: 0.5rem;
-  border: 1px solid #ac7da3;
+  border: 1px solid #f3ced5;
   border-radius: 4px;
 }
 
@@ -225,7 +237,7 @@ footer a {
 }
 
 .help .txt:focus {
-  outline: 2px solid #ac7da3;
+  outline: 2px solid #f3ced5;
 }
 
 .help .items li {
@@ -235,7 +247,7 @@ footer a {
 .help .items .items__list {
   margin: 1rem 5rem;
   padding: 3rem 1rem;
-  border: 1px solid #ac7da3;
+  border: 1px solid #f3ced5;
   border-radius: 4px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

@@ -37,9 +37,15 @@
         h2{
             padding: 1rem;
         }
-        .main-slider{
-            order:1;
+        .programs-action__item{
+            .programs__text{
+                padding: 1rem 1rem; 
+             }
+            .main-slider{
+                order:1;
+            }
         }
+        
     }
 
 /////////////////////ХОЧУ ПОМОЧЬ///////

@@ -28,7 +28,10 @@
   .programs-action h2 {
     padding: 1rem;
   }
-  .programs-action .main-slider {
+  .programs-action .programs-action__item .programs__text {
+    padding: 1rem 1rem;
+  }
+  .programs-action .programs-action__item .main-slider {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
